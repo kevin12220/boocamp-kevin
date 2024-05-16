@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+    background-color: black;
+
+}
+
+.header__img img {
+width: 120px;
+height: 80px;
+}
+
+.header__links_container{
+    width: 50%;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+ul.header__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
