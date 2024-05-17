@@ -4,13 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <a href="Assets/1019589475-preview.gif"> </a>
         <!-- contenedor de imagen -->
         <div class="header__img">
             <img src="Assets/Programador.jpeg" alt="Programador innato">
@@ -18,16 +24,16 @@
         <!-- contenedor de lista DESORDENADA -->
         <div class="header__links_container">
             <ul class="header__links">
-                <li>
+                <li class="uno">
                     <a href=""> Home</a>
                 </li>
-                <li>
+                <li class="dos">
                     <a href=""> About us</a>
                 </li>
-                <li>
-                    <a href=""> Contact</a>
+                <li class="tres">
+                    <a href="#correos"> Contact</a>
                 </li>
-                <li>
+                <li class="cuatro">
                     <a href=""> Log out </a>
                 </li>
 
@@ -35,28 +41,59 @@
             <!-- lista ORDENADA -->
             <ol>
                 <li>
-                
+
 
                 </li>
 
             </ol>
         </div>
     </header>
+
+    <style>
+        body {
+
+            background-image: url(Assets/1019589475-preview.gif);
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            /* Ajusta la altura según sea necesario */
+        }
+
+        form {
+
+            background-image: url(Assets/1019589475-preview.gif);
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            /* Ajusta la altura según sea necesario */
+        }
+
+        footer {
+
+            background-image: url(Assets/1019589475-preview.gif);
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            /* Ajusta la altura según sea necesario */
+        }
+
     
+    </style>
+
 
     <section>
-        <div>
-            <div>
+        <div class="card">
+            <div class="card__img">
                 <img src="Assets/html.png" alt="HTML">
 
             </div>
-            <div>
-                <h2>
-                  HTML
+            <div class="card__info">
+                <h2 class="font--md">
+                    HTML
 
 
                 </h2>
-                <p>
+                <p class="font--sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, facilis est! Quas, distinctio! Enim
                     reprehenderit esse doloribus earum facilis ab eos odio odit, ipsum officiis dignissimos eaque hic
                     fugit. Reprehenderit.
@@ -67,15 +104,15 @@
             </div>
 
         </div>
-        <div>
-            <div>
-                <h2>
-                    
+        <div class="card">
+            <div class="card__info">
+                <h2 class="font--md">
+
                     Css
 
 
                 </h2>
-                <p>
+                <p class="font--sm">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolore quibusdam doloribus
                     possimus! Voluptates deserunt cupiditate ipsa aliquid vitae ab, in quisquam porro blanditiis harum
                     dicta doloremque. Sed, culpa cum?
@@ -83,7 +120,7 @@
                 </p>
 
             </div>
-            <div>
+            <div class="card__img">
                 <img src="Assets/css.png" alt="css">
 
             </div>
@@ -118,10 +155,12 @@
         <div>
             <input type="submit">
         </div>
-        <div>
-            <button type="submit">Ingresar</button>
-        </div>
+
+        <button type="submit">Ingresar</button>
+
     </form>
+
+  
 
     <footer>
         <div>
@@ -150,29 +189,29 @@
                 <ul>
                     <!-- iconos -->
 
-                    <a href="https://github.com/kevin12220" target="_blank"> 
-                    <i class="fa-brands fa-github-alt"></i>
+                    <a href="https://github.com/kevin12220" target="_blank">
+                        <i class="fa-brands fa-github-alt"></i>
                     </a>
                     <li>
-                     <a href="https://www.instagram.com">
-                        <i class="fa-brands fa-instagram"></i>
-                     </a>
+                        <a href="https://www.instagram.com">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
 
                     </li>
                     <li>
-                     <a href="https://www.google.com/intl/es-419/gmail/about/">
-                        <i class="fa-solid fa-check"></i>
-                     </a>
+                        <a href="https://www.google.com/intl/es-419/gmail/about/">
+                            <i class="fa-solid fa-check"></i>
+                        </a>
                     </li>
                 </ul>
 
             </div>
-            <div>
+            <div id="correos">
 
-            <address>
-                <a href="castiblancokevin1@gmail.com">castiblancokevin1@gmail.com</a><br>
-                <a href="+3222002188">+1 (57)3222002188 </a>
-            </address>
+                <address>
+                    <a href="castiblancokevin1@gmail.com">castiblancokevin1@gmail.com</a><br>
+                    <a href="+3222002188">+1 (57)3222002188 </a>
+                </address>
 
 
             </div>
